@@ -1,0 +1,32 @@
+
+.form-inner-wrapper {
+    height: 400px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    box-shadow: 0 0 3px;
+    border-radius: 5px;
+}
+.form-inner-wrapper::-webkit-scrollbar {
+    width: 5px;
+    border-radius: 5px;
+    background-color: rgb(232, 229, 229);
+}
+.form-inner-wrapper::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-color: rgb(95, 95, 95);
+}
+.todo-list {
+    border-radius: 10px;
+}
+.todo-inner-item {
+    border-radius: 5px;
+}
+.container {
+    user-select: none;
+}
+.todo-input::placeholder {
+    color: white;
+}
+.movie-btn {
+    margin-left: auto !important;
+}
